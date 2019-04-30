@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-ts-issue-multiregister",
+  "version": "1.0.0",
+  "description": "Simple project for reproducing issue of @nuxt/typescript about registering ts-node more than once.",
+  "author": "segararai",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.0",
+    "ts-node": "^8.1.0"
+  },
+  "devDependencies": {
+    "@nuxt/typescript": "^2.6.3",
+    "nodemon": "^1.18.9"
+  }
+}
